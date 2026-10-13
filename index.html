@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Archimo Ads — Independent creative advertising studio specializing in brand strategy, identity design, creative campaigns, and digital experiences that help businesses stand apart.">
+  <meta name="keywords"
+    content="creative agency, brand identity, advertising, digital marketing, web design, campaign design, Archimo Ads">
+  <title>Archimo Ads — Creative Advertising & Branding Studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Favicon placeholder -->
+  <link rel="icon" type="image/svg+xml" href="./images/logo.png">
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="#" class="nav-brand" id="nav-logo">
+        <div class="logo-mark">
+          <img src="./images/logo.png" alt="">
+        </div>
+        Archimo Ads
+      </a>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#work">Our Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="nav-cta">Let's Talk <span class="arrow">↗</span></a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#home" class="mobile-link">Home</a>
+    <a href="#services" class="mobile-link">Services</a>
+    <a href="#work" class="mobile-link">Our Work</a>
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+    <a href="#contact" class="mobile-link nav-cta" style="margin-top:12px;">Let's Talk <span class="arrow">↗</span></a>
+  </div>
+
+
+  <!-- ========== 03. HERO ========== -->
+  <section class="hero section-pad" id="home">
+    <div class="hero-mesh"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">INDEPENDENT CREATIVE & ADVERTISING STUDIO</p>
+
+      <h1 class="hero-headline reveal reveal-delay-1">
+        We Make Brands<br><span class="highlight">Impossible</span> to Ignore.
+      </h1>
+
+      <p class="hero-subtext reveal reveal-delay-2">
+        We help ambitious businesses turn ideas into distinctive brands, powerful campaigns, and digital experiences
+        that leave a lasting impression.
+      </p>
+
+      <div class="hero-buttons reveal reveal-delay-3">
+        <a href="#work" class="btn-primary">
+          Explore Our Work <span class="arrow">↗</span>
+        </a>
+        <a href="#contact" class="btn-secondary">
+          Let's Talk <span class="arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Badge -->
+    <div class="circle-button">
+
+      <div class="rotating-text">
+        <svg viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+
+          <defs>
+            <path id="circlePath" d="M 70,70 m -49,0 a 49,49 0 1,1 98,0 a 49,49 0 1,1 -98,0" />
+          </defs>
+
+          <text>
+            <textPath href="#circlePath">
+              CREATIVITY MEETS STRATEGY •
+              ACHIEVE MORE WITH EVERY CLICK •
+            </textPath>
+          </text>
+
+        </svg>
+      </div>
+
+      <button class="arrow-button" aria-label="Explore" onclick="window.location.href='#contact'">
+        <svg viewBox="0 0 24 24">
+          <path d="M7 17L17 7" />
+          <path d="M8 7h9v9" />
+        </svg>
+      </button>
+
+    </div>
+  </section>
+
+
+
+  <!-- ========== 04. SERVICES ========== -->
+  <section class="services section-pad" id="services">
+    <div class="container">
+      <div class="services-header">
+        <p class="eyebrow reveal">Our Services</p>
+        <h2 class="services-heading reveal reveal-delay-1">Driving Growth<br>Through Strategic Advertising.</h2>
+        <p class="reveal reveal-delay-2">We help businesses connect with the right audiences and build a stronger
+          digital
+          presence through thoughtful planning, audience insights, and creative experimentation.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Service 01 -->
+        <div class="service-card reveal">
+          <span class="service-number">01</span>
+          <h3>Digital Marketing</h3>
+          <p>Drive targeted traffic and increase conversions with data-backed advertising strategies tailored to scale
+            your brand.</p>
+          <div class="service-deliverables">
+            <span>Search Engine Optimization</span>
+            <span>Paid Advertising</span>
+            <span>Email & Content Marketing</span>
+            <span>Social Media Management</span>
+          </div>
+          <a href="#contact" class="card-arrow" aria-label="Learn more about Brand Strategy">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7" />
+              <polyline points="7 7 17 7 17 17" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Service 02 -->
+        <div class="service-card reveal reveal-delay-1">
+          <span class="service-number">02</span>
+          <h3>Web Development</h3>
+          <p>Build robust, fast, and secure custom web platforms engineered for maximum engagement and premium user
+            experiences.</p>
+          <div class="service-deliverables">
+            <span>Website Design</span>
+            <span>Web Redesign & Modernization</span>
+            <span>Maintenance & Support</span>
+          </div>
+          <a href="#contact" class="card-arrow" aria-label="Learn more about Creative Advertising">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7" />
+              <polyline points="7 7 17 7 17 17" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Service 03 -->
+        <div class="service-card reveal reveal-delay-2">
+          <span class="service-number">03</span>
+          <h3>Content Creation</h3>
+          <p>Tell your brand story and captivate your audience through expert cinematography, short-form editing, and
+            high-impact copy.</p>
+          <div class="service-deliverables">
+            <span>Cinematography</span>
+            <span>Video Editing</span>
+            <span>Copywriting</span>
+            <span>Content Strategy</span>
+          </div>
+          <a href="#contact" class="card-arrow" aria-label="Learn more about Digital Marketing">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7" />
+              <polyline points="7 7 17 7 17 17" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Service 04 -->
+        <div class="service-card reveal">
+          <span class="service-number">04</span>
+          <h3>Graphic Design</h3>
+          <p>Define a world-class visual identity with high-end logo designs, brand systems, and custom corporate
+            creatives.</p>
+          <div class="service-deliverables">
+            <span>Logo Design</span>
+            <span>Brand Systems</span>
+            <span>Visual Design</span>
+          </div>
+          <a href="#contact" class="card-arrow" aria-label="Learn more about Social Media">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7" />
+              <polyline points="7 7 17 7 17 17" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Service 05 -->
+        <div class="service-card reveal reveal-delay-1">
+          <span class="service-number">05</span>
+          <h3>Social Media Management</h3>
+          <p>Build a consistent and engaging social media presence that connects your brand with its audience and grows
+            your online community.</p>
+          <div class="service-deliverables">
+            <span>Content Planning</span>
+            <span>Community Engagement</span>
+            <span>Social Analytics</span>
+            <span>Paid Social</span>
+            <span>Conversion-focused</span>
+          </div>
+          <a href="#contact" class="card-arrow" aria-label="Learn more about Website Design">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7" />
+              <polyline points="7 7 17 7 17 17" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Service 06 -->
+        <div class="service-card reveal reveal-delay-2">
+          <span class="service-number">06</span>
+          <h3>Performance Marketing</h3>
+          <p>Reach potential customers through targeted advertising campaigns designed to generate qualified leads,
+            increase conversions, and maximize return on ad spend.</p>
+          <div class="service-deliverables">
+            <span>Paid Search</span>
+            <span>Paid Social</span>
+            <span>Lead Generation</span>
+            <span>Conversion Tracking</span>
+          </div>
+          <a href="#contact" class="card-arrow" aria-label="Learn more about Campaign Design">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7" />
+              <polyline points="7 7 17 7 17 17" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== 06. PORTFOLIO ========== -->
+  <section class="portfolio section-pad" id="work">
+    <div class="container">
+      <div class="portfolio-header">
+        <p class="eyebrow reveal">PROJECTS</p>
+        <h2 class="portfolio-heading reveal reveal-delay-1">Ideas brought to life.<br>Brands made distinctive.</h2>
+        <p class="reveal reveal-delay-2">Every project starts with a question and becomes an opportunity to create
+          something meaningful. Explore a selection of brand identities, creative campaigns, and digital experiences
+          shaped by strategy and imagination.</p>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <!-- Project 01 -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="images/project-identity.jpg"
+              alt="Identity in Focus — Brand identity project featuring logo, stationery, and visual system"
+              loading="lazy">
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <h3>Identity in Focus</h3>
+              <span>Brand Identity</span>
+            </div>
+            <span class="project-link">View Project <span class="arrow">↗</span></span>
+          </div>
+        </article>
+
+        <!-- Project 02 -->
+        <article class="project-card reveal reveal-delay-1">
+          <div class="project-image">
+            <img src="images/project-campaign.jpg"
+              alt="The Art of the Launch — Creative campaign with bold visuals and cohesive messaging" loading="lazy">
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <h3>The Art of the Launch</h3>
+              <span>Creative Campaign</span>
+            </div>
+            <span class="project-link">View Project <span class="arrow">↗</span></span>
+          </div>
+        </article>
+
+        <!-- Project 03 -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="images/project-website.jpg"
+              alt="Digital, Reimagined — Modern website design with warm minimalist interface" loading="lazy">
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <h3>Digital, Reimagined</h3>
+              <span>Website Design</span>
+            </div>
+            <span class="project-link">View Project <span class="arrow">↗</span></span>
+          </div>
+        </article>
+
+        <!-- Project 04 -->
+        <article class="project-card reveal reveal-delay-1">
+          <div class="project-image">
+            <img src="images/project-social.jpg"
+              alt="Made to Connect — Social media content system with cohesive brand visuals" loading="lazy">
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <h3>Made to Connect</h3>
+              <span>Social Media</span>
+            </div>
+            <span class="project-link">View Project <span class="arrow">↗</span></span>
+          </div>
+        </article>
+
+        <!-- Project 05 -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="images/project-artdirection.jpg"
+              alt="A Fresh Perspective — Art-directed visual language with editorial compositions" loading="lazy">
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <h3>A Fresh Perspective</h3>
+              <span>Art Direction</span>
+            </div>
+            <span class="project-link">View Project <span class="arrow">↗</span></span>
+          </div>
+        </article>
+
+        <!-- Project 06 -->
+        <article class="project-card reveal reveal-delay-1">
+          <div class="project-image">
+            <img src="images/project-advertising.jpg"
+              alt="Beyond the Ordinary — Advertising creative with bold typography and sophisticated visuals"
+              loading="lazy">
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <h3>Beyond the Ordinary</h3>
+              <span>Advertising Creative</span>
+            </div>
+            <span class="project-link">View Project <span class="arrow">↗</span></span>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="portfolio-cta reveal">
+        <a href="#contact">Have a project in mind? Let's talk <span class="arrow">↗</span></a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== 07. ABOUT ========== -->
+  <section class="about section-pad" id="about">
+    <div class="container">
+      <div class="about-inner">
+        <div class="about-text">
+          <p class="eyebrow reveal">A LITTLE ABOUT US</p>
+          <h2 class="about-headline reveal reveal-delay-1">Transforming <span class="highlight">Ideas</span> Into <span
+              class="highlight">Digital</span>
+            Growth</h2>
+          <div class="about-body reveal reveal-delay-2">
+            <p>At ArchimoAds, we combine premium aesthetics with data-driven strategy to build high-converting digital
+              platforms and campaigns. Our expert team collaborates closely with your business to ensure your digital
+              assets look stunning, load instantly, and drive measurable revenue growth. </p>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="about-principles">
+          <div class="principle reveal">
+            <span class="principle-number">01</span>
+            <h4>Strategy Before Decoration</h4>
+            <p>We start by understanding the business, the audience, and the challenge. Every creative decision should
+              serve a purpose.</p>
+          </div>
+          <div class="principle reveal reveal-delay-1">
+            <span class="principle-number">02</span>
+            <h4>Creativity With Clarity</h4>
+            <p>Bold ideas matter most when they communicate something meaningful. We aim for work that is expressive,
+              relevant, and easy to understand.</p>
+          </div>
+          <div class="principle reveal reveal-delay-2">
+            <span class="principle-number">03</span>
+            <h4>Details Make the Difference</h4>
+            <p>From typography to the smallest interaction, we care about the details that turn a good experience into a
+              memorable one.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== 08. PROCESS ========== -->
+  <section class="process section-pad" id="process">
+    <div class="container">
+      <div class="process-header">
+        <p class="eyebrow reveal">HOW WE WORK</p>
+        <h2 class="process-heading reveal reveal-delay-1">From first thought to final execution.</h2>
+        <p class="reveal reveal-delay-2">Good creative work comes from asking the right questions, building on strong
+          ideas, and paying attention to every detail.</p>
+      </div>
+
+      <div class="process-timeline">
+        <div class="process-step reveal">
+          <div class="step-marker">01</div>
+          <h4>Discover</h4>
+          <p>We learn about your business, audience, objectives, and challenges to understand what success should look
+            like.</p>
+        </div>
+        <div class="process-step reveal reveal-delay-1">
+          <div class="step-marker">02</div>
+          <h4>Define</h4>
+          <p>We establish the direction, priorities, and creative strategy that will guide the project.</p>
+        </div>
+        <div class="process-step reveal reveal-delay-2">
+          <div class="step-marker">03</div>
+          <h4>Create</h4>
+          <p>We develop concepts, explore visual directions, and refine the work into a cohesive brand or campaign
+            experience.</p>
+        </div>
+        <div class="process-step reveal reveal-delay-3">
+          <div class="step-marker">04</div>
+          <h4>Deliver</h4>
+          <p>We prepare the final assets and help bring the creative direction to life across the agreed touchpoints.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== 09. CONTACT CTA ========== -->
+  <section class="contact-cta section-pad" id="contact">
+    <div class="contact-mesh"></div>
+    <div class="container">
+      <div class="contact-content">
+        <p class="eyebrow reveal">HAVE SOMETHING IN MIND?</p>
+        <h2 class="contact-headline reveal reveal-delay-1">Let's make something<br>worth noticing.</h2>
+        <p class="reveal reveal-delay-2">Have a new brand to build, a campaign to launch, or an idea ready to grow? Tell
+          us what you're thinking. We'd love to explore what's possible together.</p>
+
+        <div class="contact-buttons reveal reveal-delay-3">
+          <a href="#contact-form" class="btn-primary">Start a Project <span class="arrow">↗</span></a>
+          <a href="mailto:hello@archimoads.com" class="btn-secondary">Email Us <span class="arrow">→</span></a>
+        </div>
+
+        <p class="contact-hint reveal reveal-delay-3">Have a brief already? Share it with us and let's get the
+          conversation started.</p>
+
+        <!-- Contact Form -->
+        <form class="contact-form reveal reveal-delay-4" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+              <span class="error-message">Please enter your name</span>
+            </div>
+            <div class="form-group">
+              <label for="email">Work Email</label>
+              <input type="email" id="email" name="email" placeholder="your@company.com" required>
+              <span class="error-message">Please enter a valid email</span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="company">Company or Brand</label>
+              <input type="text" id="company" name="company" placeholder="Your company name">
+            </div>
+            <div class="form-group">
+              <label for="service">Service Required</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="brand-identity">Brand Strategy & Identity</option>
+                <option value="creative-advertising">Creative Advertising</option>
+                <option value="digital-marketing">Digital Marketing</option>
+                <option value="social-media">Social Media & Content</option>
+                <option value="website-design">Website & Digital Experience</option>
+                <option value="campaign-launch">Campaign & Launch Design</option>
+                <option value="other">Other / Not Sure</option>
+              </select>
+              <span class="error-message">Please select a service</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="budget">Estimated Project Budget <span
+                style="color:var(--text-secondary);font-weight:400;">(optional)</span></label>
+            <select id="budget" name="budget">
+              <option value="" disabled selected>Select a range</option>
+              <option value="under-5k">Under $5,000</option>
+              <option value="5k-10k">$5,000 – $10,000</option>
+              <option value="10k-25k">$10,000 – $25,000</option>
+              <option value="25k-50k">$25,000 – $50,000</option>
+              <option value="50k-plus">$50,000+</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Tell Us About Your Project</label>
+            <textarea id="message" name="message"
+              placeholder="Share a brief description of your project, goals, and timeline..." rows="5"
+              required></textarea>
+            <span class="error-message">Please tell us about your project</span>
+          </div>
+
+          <div class="form-submit">
+            <button type="submit" class="btn-primary">
+              Send Project Inquiry <span class="arrow">↗</span>
+            </button>
+          </div>
+        </form>
+
+        <!-- Success State -->
+        <div class="form-success" id="form-success">
+          <div class="success-icon">✓</div>
+          <h3>Thank you!</h3>
+          <p>Your inquiry has been received. We'll review your project details and get back to you within 1–2 business
+            days.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== 10. FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="">
+              <img src="./images/logo.png" alt="">
+            </div>
+            Archimo Ads
+          </div>
+          <p>Building bold brands through thoughtful strategy and creative advertising.</p>
+        </div>
+
+        <div class="footer-column">
+          <h5>Navigation</h5>
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#work">Our Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-column">
+          <h5>Services</h5>
+          <a href="#services">Brand Identity</a>
+          <a href="#services">Creative Advertising</a>
+          <a href="#services">Digital Marketing</a>
+          <a href="#services">Website Design</a>
+        </div>
+
+        <div class="footer-column">
+          <h5>Contact</h5>
+          <a href="mailto:hello@archimoads.com">hello@archimoads.com</a>
+          <a href="#" target="_blank" rel="noopener">Instagram</a>
+          <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="#" target="_blank" rel="noopener">Behance</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Archimo Ads. All rights reserved.</p>
+        <a href="#home" class="back-to-top">Back to top <span>↑</span></a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
