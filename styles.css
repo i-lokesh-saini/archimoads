@@ -12,7 +12,7 @@
   --bg: #FAF9F6;
   --white: #FFFFFF;
   --text-primary: #191919;
-  --text-secondary: #777777;
+  --text-secondary: #aaaaaa;
   --lavender: #DCD0FF;
   --peach: #FFDCCB;
   --baby-blue: #D9E8FF;
@@ -1485,10 +1485,16 @@ body::after {
    10. FOOTER
    ========================================================================== */
 .footer {
-  background: var(--bg);
+  background: var(--text-primary);
   border-top: 1px solid var(--border);
   padding-top: clamp(60px, 6vw, 80px);
   padding-bottom: 0;
+  color: var(--bg);
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
 }
 
 .footer-grid {
@@ -1542,7 +1548,7 @@ body::after {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 20px;
-  color: var(--text-primary);
+  color: var(--bg);
 }
 
 .footer-column a {
@@ -1709,5 +1715,14 @@ body::after {
 
   .contact-buttons {
     flex-direction: column;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .about-principles {
+    flex-direction: column;
+
   }
 }
